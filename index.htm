@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
+    <script src="validator.js" defer></script>
     <title>Login Form</title>
   </head>
 
@@ -15,10 +16,10 @@
       <form action="">
         <div class="input-field">
           <input
-            type="text"
-            name="username"
+            type="email"
+            name="email"
             id="username"
-            placeholder="User name"
+            placeholder="jhon@email.com"
           />
           <div class="underline"></div>
         </div>
@@ -34,6 +35,9 @@
 
         <input type="submit" value="Continue" />
       </form>
+      <div class="modal">
+        <h1>Login efetuado</h1>
+      </div>
 
       <div class="footer">
         <span>Or connect with social media</span>
